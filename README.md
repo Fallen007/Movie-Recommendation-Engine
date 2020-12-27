@@ -1,12 +1,12 @@
-## Movie Recommendation Engine
+# Movie Recommendation Engine
 
 <img src="google_search_movie.png" align="top-left"/>
 
-### Goal
+## Goal
 
 In this project we built a movie recommendation engine using content based filtering.
 
-### Approach
+## Approach
 
 First we read data from the .csv file using pandas.
 
@@ -20,19 +20,19 @@ After this we combined all the values from the above features into a single stri
 
 We computed **Cosine Similarity** between the content representing vectors of various movies to find the movies similar to the cureent user's liking.
 
-### Toolset
+## Toolset
 
 Pandas nad scikit-learn were used for this project.
 
-### Data
+## Data
 
 The data used in this project can be downloaded from [here on Kaggle](https://www.kaggle.com/tmdb/tmdb-movie-metadata).
 
-### Implementation
+## Implementation
 
 Implementation of the approach can be found in the Movies_Recommendation_Engine.ipynb located in the main directory.
 
-### Contact
+## Contact
 
 I hope you found this useful. If you have any feedback, I’d love to hear it.
 
